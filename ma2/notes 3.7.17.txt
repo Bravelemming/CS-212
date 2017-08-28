@@ -1,0 +1,40 @@
+prompt the user for :
+
+source sink cost
+
+1 2 5
+
+so, 1 is connected to 2 with an edge weight of 5
+
+and this builds the tree.  they are single directional.
+
+-1 ; we are done computing
+next_number: starting node point
+
+start the process with an unordered map with vertices
+
+check the hash
+
+does it exist?
+
+create new ones if not
+
+unordered_map<int, vertex *> {};
+
+graph g;
+
+
+call addVertex for all vertexs you create to add them to the graph class
+
+markVisited function adds a check that means we visited the node already, make sure to call it.
+
+push on the dijkstra_queue PQ
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+﻿  main.cpp
+c:\users\jack\google drive\school docs\cs 212\ma3\disjointset - starter\disjointset.h(48): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  c:\users\jack\google drive\school docs\cs 212\ma3\disjointset - starter\disjointset.h(29): note: while compiling class template member function 'void DisjointSet<char>::union_with(T &,T &)'
+          with
+          [
+              T=char
+          ]
+  c:\users\jack\google drive\school docs\cs 212\ma3\disjointset - starter\main.cpp(19): note: see reference to function template instantiation 'void DisjointSet<char>::union_with(T &,T &)' being compiled
+          with
+          [
+              T=char
+          ]
+  c:\users\jack\google drive\school docs\cs 212\ma3\disjointset - starter\main.cpp(10): note: see reference to class template instantiation 'DisjointSet<char>' being compiled
+c:\users\jack\google drive\school docs\cs 212\ma3\disjointset - starter\disjointset.h(53): warning C4554: '&': check operator precedence for possible error; use parentheses to clarify precedence
+  DisjointSet.vcxproj -> C:\Users\Jack\Google Drive\school docs\cs 212\ma3\DisjointSet - starter\x64\Debug\DisjointSet.exe
+  DisjointSet.vcxproj -> C:\Users\Jack\Google Drive\school docs\cs 212\ma3\DisjointSet - starter\x64\Debug\DisjointSet.pdb (Full PDB)
